@@ -65,7 +65,7 @@
  .login-btn{
     /* border:; */
     font-size: 16px; 
-    background-color: #b9e8ee;
+    background-color: #4fe9e1;
     position: absolute;
     padding: 30px 30px;
     border-radius: 14px;
@@ -73,18 +73,20 @@
     font-size: 2rem;
     font-family:monospace;
     border: #4fe9e1;
+    transition-duration: 0.4s;
     
-   
-
-
-
- }
+    }
+    .login-btn:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      cursor: pointer;
+    }
 
 
 
  .register-btn{
    position: absolute;
-    background-color:  #b9e8ee;
+    background-color:  #4fe9e1;
     padding: 30px 30px;
     border-radius: 14px;
     top: 90px;
@@ -92,5 +94,11 @@
     font-family:monospace;
     right: -40%;
     border: #4fe9e1;
+    transition-duration: 0.4s;
 
  }
+.register-btn:hover{
+   background-color: #4CAF50; /* Green */
+      color: white;
+      cursor: pointer;
+}
