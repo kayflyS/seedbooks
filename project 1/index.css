@@ -16,8 +16,9 @@
  .header{
      background-color: #4fe9e1;
      margin:0;
-     padding: 15px 0;
+     padding: 15px 0px;
      /* border-radius: 150px; */
+     
  }
  #words{
      font-size: 30px;
@@ -44,4 +45,52 @@
   }
  .inner-container > p{
      text-align: justify;
+ }
+  .btn-container{ 
+   
+    position: absolute;
+    bottom:px;
+    left: 20px;
+    display: grid;
+    width: 63%;
+    grid-template-columns: repeat(7,1fr);
+    gap: 5px;
+    margin-left:px;
+    padding: 20px;
+    text-align: justify;
+    
+ } 
+
+
+ .login-btn{
+    /* border:; */
+    font-size: 16px; 
+    background-color: #b9e8ee;
+    position: absolute;
+    padding: 30px 30px;
+    border-radius: 14px;
+    top: 90px;
+    font-size: 2rem;
+    font-family:monospace;
+    border: #4fe9e1;
+    
+   
+
+
+
+ }
+
+
+
+ .register-btn{
+   position: absolute;
+    background-color:  #b9e8ee;
+    padding: 30px 30px;
+    border-radius: 14px;
+    top: 90px;
+    font-size: 2rem;
+    font-family:monospace;
+    right: -40%;
+    border: #4fe9e1;
+
  }
