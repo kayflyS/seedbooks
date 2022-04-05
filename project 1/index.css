@@ -8,7 +8,7 @@
     width: 800px;
     margin: 30px auto;
     border-radius: 30px; 
-   font-family:fantasy;
+   font-family:'Courier New', Courier, monospace
 
 
    
@@ -17,7 +17,7 @@
      background-color: #4fe9e1;
      margin:0;
      padding: 15px 0px;
-     /* border-radius: 150px; */
+     border-radius: 15px; 
      
  }
  #words{
@@ -60,7 +60,9 @@
     text-align: justify;
     
  } 
-
+.text-container{
+   padding: 20px 0px;
+}
 
  .login-btn{
     /* border:; */
@@ -77,7 +79,7 @@
     
     }
     .login-btn:hover {
-      background-color: #4CAF50; /* Green */
+      background-color:rgba(73, 126, 151, 0.692); 
       color: white;
       cursor: pointer;
     }
@@ -95,10 +97,27 @@
     right: -40%;
     border: #4fe9e1;
     transition-duration: 0.4s;
+    transition: ease-out 0.3s;
 
  }
 .register-btn:hover{
-   background-color: #4CAF50; /* Green */
+   background-color:rgba(73, 126, 151, 0.692);; 
       color: white;
       cursor: pointer;
+}
+
+
+.text-1{
+   font-size :25px;
+   padding: 0px 20px;
+   font-family:monospace;
+   
+}
+.text-2{
+   position: relative;
+   right: -77%;
+   bottom: 60px;
+   font-family: monospace ;
+   font-size: 25px;
+   
 }
